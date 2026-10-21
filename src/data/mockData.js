@@ -1,26 +1,26 @@
-// Fake data for the demo. Change anything here and the whole app updates.
+// Sample student record and values matching the MUT portal reference screen.
 export const student = {
-  name: "JANE SAMPLE DOE",
-  firstName: "JANE",
-  regNo: "xx000/0000/2023",
+  name: "JOSEPH MACHARIA WANJAU",
+  firstName: "JOSEPH",
+  regNo: "SCT/0000/2023",
   semester: "SEMESTER 1 2026/2027",
-  stage: "Y4S1",
-  programCode: "XX000",
-  programmeName: "BACHELOR OF SCIENCE (SAMPLE PROGRAMME)",
-  campus: "MAIN",
+  stage: "Y1S1",
+  programCode: "BBIT",
+  programmeName: "BACHELOR OF BUSINESS INFORMATION TECHNOLOGY",
+  campus: "MAIN CAMPUS",
   idNumber: "00000000",
-  gender: "Female",
+  gender: "Male",
   dob: "01/01/05",
   phone: "0700000000",
-  email: "jane.doe@example.com",
+  email: "joseph@example.com",
 };
 
 export const fees = {
-  billed: 500000,
-  paid: 250000,
-  balance: 250000,
-  paidChange: 50.0,
-  balanceChange: -5.0,
+  billed: 175000,
+  paid: 86100,
+  balance: 8890.03,
+  paidChange: 49.16,
+  balanceChange: -5.06,
 };
 
 export const menuItems = [
