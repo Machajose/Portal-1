@@ -4,7 +4,7 @@ export const student = {
   firstName: "JOSEPH",
   regNo: "ms200/2535/2023",
   semester: "SEMESTER 1 2026/2027",
-  stage: "Y4S1",
+  stage: "Y1S1",
   programCode: "MS200",
   programmeName: "BACHELOR OF SCIENCE (MEDICAL LABORATORY SCIENCES)",
   campus: "MAIN",
