@@ -35,15 +35,21 @@ h1 { margin: 12px 0 10px; font-size: 36px; line-height: 1.18; }
 .center { text-align: center; }
 .big { font-size: 22px; }
 .section-title { font-size: 24px; margin-top: 32px; }
+.academic-title { display: flex; align-items: center; gap: 8px; }
+.academic-cap { width: 28px; height: 28px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .green { color: var(--brand-dark); }
 .personal { padding: 0; overflow: hidden; }
-.personal-header { display: flex; gap: 16px; align-items: center; padding: 20px 24px; border-bottom: 1px solid #e5e7eb; background: #f9fafb; }
+.personal-header { display: flex; gap: 22px; align-items: center; padding: 24px 30px; border-bottom: 1px solid #e5e7eb; background: #fff; }
 .personal-header h2 { margin: 0; font-size: 24px; }
 .personal-header p { margin: 4px 0 0; }
-.icon-box { width: 56px; height: 56px; border-radius: 12px; background: var(--brand-soft); display: grid; place-items: center; font-size: 22px; }
+.icon-box { width: 72px; height: 72px; flex: 0 0 72px; border-radius: 16px; color: var(--brand-dark); background: var(--brand-soft); display: grid; place-items: center; }
 .field { padding: 20px 24px 0; }
 .field-label { letter-spacing: 2px; font-weight: 700; color: var(--muted); font-size: 15px; }
 .field-value { font-size: 21px; font-weight: 600; padding: 8px 0 18px; border-bottom: 1px solid #e5e7eb; }
+.profile-card { padding: 30px; }
+.profile-card .section-title { margin-top: 40px; }
+.profile-card p { font-size: 18px; line-height: 1.55; }
+.personal { border-radius: 0; box-shadow: none; }
 @media (max-width: 600px) {
   .navbar { padding: 18px 24px; }
   .navbar-top { min-height: 68px; }
@@ -65,6 +71,13 @@ h1 { margin: 12px 0 10px; font-size: 36px; line-height: 1.18; }
   .stat-label { font-size: 17px; }
   .stat-value { font-size: clamp(29px, 6vw, 38px); margin-top: 20px; white-space: nowrap; }
   .stat-change { font-size: 17px; margin-top: 20px; }
+  .profile-card { padding: 30px; }
+  .profile-card h1 { font-size: 36px; }
+  .profile-card .pill { margin-top: 26px; }
+  .personal-header { padding: 24px 30px; }
+  .field { padding: 26px 30px 0; }
+  .field-label { font-size: 16px; }
+  .field-value { font-size: 22px; padding: 10px 0 26px; }
 }
 @media (max-width: 390px) {
   .navbar { padding-inline: 16px; }

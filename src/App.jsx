@@ -31,6 +31,8 @@ export default function App() {
               value={money(fees.balance)}
               change={fees.balanceChange}
             />
+            <ProfileCard student={student} />
+            <PersonalInfo student={student} />
           </>
         )}
 
